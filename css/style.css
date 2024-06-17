@@ -1,0 +1,45 @@
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: lemonchiffon;
+}
+
+#titolo {
+    color: gray;
+    text-shadow: 4px 4px gainsboro;
+}
+
+#backrisultato {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: lightcoral;
+    border-radius: 15px;
+}
+
+#prisultato {
+    width: 70rem;
+    height: 70rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.risultato {
+    border: 2px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
