@@ -17,6 +17,8 @@ body {
 }
 
 #backrisultato {
+    width: 40rem;
+    height: 20rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -26,20 +28,114 @@ body {
     border-radius: 15px;
 }
 
-#prisultato {
-    width: 70rem;
-    height: 70rem;
+.prisultato {
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
-    padding: 30px 0;
 }
 
-.risultato {
+.sequenza {
+    display: none;
+}
+
+.sequenzablock {
+    display: block;
+    width: 25rem;
+    height: 5rem;
     border: 2px solid white;
-    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    font-size: 30px;
+    color: lemonchiffon;
+}
+
+.inputsequenza {
+    display: none;
+}
+
+.inputsequenzablock {
+    display: block;
+    width: 25rem;
+    height: 5rem;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 30px;
+    color: lightseagreen;
+}
+
+.buttoncountdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdownnone {
+    display: none;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: lemonchiffon;
+    color: firebrick;
+    margin: 0 20px;
+}
+
+#button {
+    width: 10rem;
+    height: 3rem;
+    border: lemonchiffon 2px solid;
+    color: lightcoral;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.invianone {
+    display: none;
+}
+
+.invia {
+    display: block;
+    width: 10rem;
+    height: 3rem;
+    border: lemonchiffon 2px solid;
+    color: lightcoral;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.risultatonone {
+    display: none;
+}
+
+.risultato {
+    display: block;
+    text-align: center;
+    width: 25rem;
+    height: 5rem;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    color: black;
 }
